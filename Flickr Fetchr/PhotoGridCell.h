@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PhotoGridCell : UICollectionViewCell
+@class FlickrPhoto;
 
+@interface PhotoGridCell : UICollectionViewCell
+@property (nonatomic, weak) IBOutlet UIImageView* photoView;
+@property (nonatomic, strong) FlickrPhoto* photo;
+
+- (void) loadImage;
 @end

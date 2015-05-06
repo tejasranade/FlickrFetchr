@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E1E0C1E164B717ACF04E328 /* Pods_Flickr_Fetchr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A00AF94793E6BEF0A4B57A37 /* Pods_Flickr_Fetchr.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		AC28D92C1AFA674E009832F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC28D92B1AFA674E009832F5 /* main.m */; };
 		AC28D92F1AFA674E009832F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC28D92E1AFA674E009832F5 /* AppDelegate.m */; };
 		AC28D9321AFA674E009832F5 /* PhotoGridController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC28D9311AFA674E009832F5 /* PhotoGridController.m */; };
@@ -16,6 +17,24 @@
 		AC28D9461AFA674F009832F5 /* Flickr_FetchrTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC28D9451AFA674F009832F5 /* Flickr_FetchrTests.m */; };
 		AC28D9511AFA766A009832F5 /* PhotoGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AC28D9501AFA766A009832F5 /* PhotoGridCell.m */; };
 		AC28D9591AFA8C56009832F5 /* FlickrPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = AC28D9581AFA8C56009832F5 /* FlickrPhoto.m */; };
+		AC28D96B1AFA9024009832F5 /* angry_birds_cake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC28D95A1AFA9023009832F5 /* angry_birds_cake.jpg */; };
+		AC28D96C1AFA9024009832F5 /* creme_brelee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC28D95B1AFA9023009832F5 /* creme_brelee.jpg */; };
+		AC28D96D1AFA9024009832F5 /* egg_benedict.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC28D95C1AFA9023009832F5 /* egg_benedict.jpg */; };
+		AC28D96E1AFA9024009832F5 /* full_breakfast.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC28D95D1AFA9023009832F5 /* full_breakfast.jpg */; };
+		AC28D96F1AFA9024009832F5 /* green_tea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC28D95E1AFA9024009832F5 /* green_tea.jpg */; };
+		AC28D9701AFA9024009832F5 /* ham_and_cheese_panini.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC28D95F1AFA9024009832F5 /* ham_and_cheese_panini.jpg */; };
+		AC28D9711AFA9024009832F5 /* ham_and_egg_sandwich.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC28D9601AFA9024009832F5 /* ham_and_egg_sandwich.jpg */; };
+		AC28D9721AFA9024009832F5 /* hamburger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC28D9611AFA9024009832F5 /* hamburger.jpg */; };
+		AC28D9731AFA9024009832F5 /* instant_noodle_with_egg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC28D9621AFA9024009832F5 /* instant_noodle_with_egg.jpg */; };
+		AC28D9741AFA9024009832F5 /* japanese_noodle_with_pork.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC28D9631AFA9024009832F5 /* japanese_noodle_with_pork.jpg */; };
+		AC28D9751AFA9024009832F5 /* mushroom_risotto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC28D9641AFA9024009832F5 /* mushroom_risotto.jpg */; };
+		AC28D9761AFA9024009832F5 /* noodle_with_bbq_pork.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC28D9651AFA9024009832F5 /* noodle_with_bbq_pork.jpg */; };
+		AC28D9771AFA9024009832F5 /* photo-frame.png in Resources */ = {isa = PBXBuildFile; fileRef = AC28D9661AFA9024009832F5 /* photo-frame.png */; };
+		AC28D9781AFA9024009832F5 /* starbucks_coffee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC28D9671AFA9024009832F5 /* starbucks_coffee.jpg */; };
+		AC28D9791AFA9024009832F5 /* thai_shrimp_cake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC28D9681AFA9024009832F5 /* thai_shrimp_cake.jpg */; };
+		AC28D97A1AFA9024009832F5 /* vegetable_curry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC28D9691AFA9024009832F5 /* vegetable_curry.jpg */; };
+		AC28D97B1AFA9024009832F5 /* white_chocolate_donut.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC28D96A1AFA9024009832F5 /* white_chocolate_donut.jpg */; };
+		AC28D9E21AFAA6DF009832F5 /* FlickrPhotoLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = AC28D9E11AFAA6DF009832F5 /* FlickrPhotoLoader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +48,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6717918DD2D0903E3CC143D9 /* Pods-Flickr Fetchr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flickr Fetchr.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Flickr Fetchr/Pods-Flickr Fetchr.debug.xcconfig"; sourceTree = "<group>"; };
+		A00AF94793E6BEF0A4B57A37 /* Pods_Flickr_Fetchr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flickr_Fetchr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC28D9261AFA674E009832F5 /* Flickr Fetchr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flickr Fetchr.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC28D92A1AFA674E009832F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC28D92B1AFA674E009832F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -46,6 +67,26 @@
 		AC28D9501AFA766A009832F5 /* PhotoGridCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoGridCell.m; sourceTree = "<group>"; };
 		AC28D9571AFA8C56009832F5 /* FlickrPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrPhoto.h; sourceTree = "<group>"; };
 		AC28D9581AFA8C56009832F5 /* FlickrPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrPhoto.m; sourceTree = "<group>"; };
+		AC28D95A1AFA9023009832F5 /* angry_birds_cake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = angry_birds_cake.jpg; sourceTree = "<group>"; };
+		AC28D95B1AFA9023009832F5 /* creme_brelee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = creme_brelee.jpg; sourceTree = "<group>"; };
+		AC28D95C1AFA9023009832F5 /* egg_benedict.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = egg_benedict.jpg; sourceTree = "<group>"; };
+		AC28D95D1AFA9023009832F5 /* full_breakfast.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = full_breakfast.jpg; sourceTree = "<group>"; };
+		AC28D95E1AFA9024009832F5 /* green_tea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = green_tea.jpg; sourceTree = "<group>"; };
+		AC28D95F1AFA9024009832F5 /* ham_and_cheese_panini.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ham_and_cheese_panini.jpg; sourceTree = "<group>"; };
+		AC28D9601AFA9024009832F5 /* ham_and_egg_sandwich.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ham_and_egg_sandwich.jpg; sourceTree = "<group>"; };
+		AC28D9611AFA9024009832F5 /* hamburger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hamburger.jpg; sourceTree = "<group>"; };
+		AC28D9621AFA9024009832F5 /* instant_noodle_with_egg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = instant_noodle_with_egg.jpg; sourceTree = "<group>"; };
+		AC28D9631AFA9024009832F5 /* japanese_noodle_with_pork.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = japanese_noodle_with_pork.jpg; sourceTree = "<group>"; };
+		AC28D9641AFA9024009832F5 /* mushroom_risotto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mushroom_risotto.jpg; sourceTree = "<group>"; };
+		AC28D9651AFA9024009832F5 /* noodle_with_bbq_pork.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = noodle_with_bbq_pork.jpg; sourceTree = "<group>"; };
+		AC28D9661AFA9024009832F5 /* photo-frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo-frame.png"; sourceTree = "<group>"; };
+		AC28D9671AFA9024009832F5 /* starbucks_coffee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = starbucks_coffee.jpg; sourceTree = "<group>"; };
+		AC28D9681AFA9024009832F5 /* thai_shrimp_cake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thai_shrimp_cake.jpg; sourceTree = "<group>"; };
+		AC28D9691AFA9024009832F5 /* vegetable_curry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vegetable_curry.jpg; sourceTree = "<group>"; };
+		AC28D96A1AFA9024009832F5 /* white_chocolate_donut.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = white_chocolate_donut.jpg; sourceTree = "<group>"; };
+		AC28D9E01AFAA6DF009832F5 /* FlickrPhotoLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrPhotoLoader.h; sourceTree = "<group>"; };
+		AC28D9E11AFAA6DF009832F5 /* FlickrPhotoLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrPhotoLoader.m; sourceTree = "<group>"; };
+		B773DC2AF5B3D07A5B00A521 /* Pods-Flickr Fetchr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flickr Fetchr.release.xcconfig"; path = "Pods/Target Support Files/Pods-Flickr Fetchr/Pods-Flickr Fetchr.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E1E0C1E164B717ACF04E328 /* Pods_Flickr_Fetchr.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +108,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1768DB2C253B91D767B3FC89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A00AF94793E6BEF0A4B57A37 /* Pods_Flickr_Fetchr.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AC28D91D1AFA674E009832F5 = {
 			isa = PBXGroup;
 			children = (
 				AC28D9281AFA674E009832F5 /* src */,
 				AC28D9421AFA674F009832F5 /* Flickr FetchrTests */,
 				AC28D9271AFA674E009832F5 /* Products */,
+				B931C9372E302B93A7555A1C /* Pods */,
+				1768DB2C253B91D767B3FC89 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +155,23 @@
 		AC28D9291AFA674E009832F5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AC28D95A1AFA9023009832F5 /* angry_birds_cake.jpg */,
+				AC28D95B1AFA9023009832F5 /* creme_brelee.jpg */,
+				AC28D95C1AFA9023009832F5 /* egg_benedict.jpg */,
+				AC28D95D1AFA9023009832F5 /* full_breakfast.jpg */,
+				AC28D95E1AFA9024009832F5 /* green_tea.jpg */,
+				AC28D95F1AFA9024009832F5 /* ham_and_cheese_panini.jpg */,
+				AC28D9601AFA9024009832F5 /* ham_and_egg_sandwich.jpg */,
+				AC28D9611AFA9024009832F5 /* hamburger.jpg */,
+				AC28D9621AFA9024009832F5 /* instant_noodle_with_egg.jpg */,
+				AC28D9631AFA9024009832F5 /* japanese_noodle_with_pork.jpg */,
+				AC28D9641AFA9024009832F5 /* mushroom_risotto.jpg */,
+				AC28D9651AFA9024009832F5 /* noodle_with_bbq_pork.jpg */,
+				AC28D9661AFA9024009832F5 /* photo-frame.png */,
+				AC28D9671AFA9024009832F5 /* starbucks_coffee.jpg */,
+				AC28D9681AFA9024009832F5 /* thai_shrimp_cake.jpg */,
+				AC28D9691AFA9024009832F5 /* vegetable_curry.jpg */,
+				AC28D96A1AFA9024009832F5 /* white_chocolate_donut.jpg */,
 				AC28D92A1AFA674E009832F5 /* Info.plist */,
 				AC28D92B1AFA674E009832F5 /* main.m */,
 			);
@@ -142,8 +211,19 @@
 			children = (
 				AC28D9571AFA8C56009832F5 /* FlickrPhoto.h */,
 				AC28D9581AFA8C56009832F5 /* FlickrPhoto.m */,
+				AC28D9E01AFAA6DF009832F5 /* FlickrPhotoLoader.h */,
+				AC28D9E11AFAA6DF009832F5 /* FlickrPhotoLoader.m */,
 			);
 			name = model;
+			sourceTree = "<group>";
+		};
+		B931C9372E302B93A7555A1C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6717918DD2D0903E3CC143D9 /* Pods-Flickr Fetchr.debug.xcconfig */,
+				B773DC2AF5B3D07A5B00A521 /* Pods-Flickr Fetchr.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,9 +233,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC28D9491AFA674F009832F5 /* Build configuration list for PBXNativeTarget "Flickr Fetchr" */;
 			buildPhases = (
+				51C7CD31D1D11DD4B95F1E5C /* Check Pods Manifest.lock */,
 				AC28D9221AFA674E009832F5 /* Sources */,
 				AC28D9231AFA674E009832F5 /* Frameworks */,
 				AC28D9241AFA674E009832F5 /* Resources */,
+				C991B137C834F09FB90CFDCB /* Embed Pods Frameworks */,
+				53CAA57199902B351461EC28 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -226,9 +309,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC28D96E1AFA9024009832F5 /* full_breakfast.jpg in Resources */,
 				AC28D9351AFA674E009832F5 /* Main.storyboard in Resources */,
+				AC28D96C1AFA9024009832F5 /* creme_brelee.jpg in Resources */,
+				AC28D97B1AFA9024009832F5 /* white_chocolate_donut.jpg in Resources */,
 				AC28D93A1AFA674E009832F5 /* LaunchScreen.xib in Resources */,
+				AC28D9791AFA9024009832F5 /* thai_shrimp_cake.jpg in Resources */,
+				AC28D9771AFA9024009832F5 /* photo-frame.png in Resources */,
+				AC28D9731AFA9024009832F5 /* instant_noodle_with_egg.jpg in Resources */,
+				AC28D9721AFA9024009832F5 /* hamburger.jpg in Resources */,
+				AC28D9761AFA9024009832F5 /* noodle_with_bbq_pork.jpg in Resources */,
+				AC28D9781AFA9024009832F5 /* starbucks_coffee.jpg in Resources */,
+				AC28D97A1AFA9024009832F5 /* vegetable_curry.jpg in Resources */,
+				AC28D96B1AFA9024009832F5 /* angry_birds_cake.jpg in Resources */,
 				AC28D9371AFA674E009832F5 /* Images.xcassets in Resources */,
+				AC28D9701AFA9024009832F5 /* ham_and_cheese_panini.jpg in Resources */,
+				AC28D96F1AFA9024009832F5 /* green_tea.jpg in Resources */,
+				AC28D9751AFA9024009832F5 /* mushroom_risotto.jpg in Resources */,
+				AC28D96D1AFA9024009832F5 /* egg_benedict.jpg in Resources */,
+				AC28D9711AFA9024009832F5 /* ham_and_egg_sandwich.jpg in Resources */,
+				AC28D9741AFA9024009832F5 /* japanese_noodle_with_pork.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,11 +341,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		51C7CD31D1D11DD4B95F1E5C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		53CAA57199902B351461EC28 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Flickr Fetchr/Pods-Flickr Fetchr-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C991B137C834F09FB90CFDCB /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Flickr Fetchr/Pods-Flickr Fetchr-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AC28D9221AFA674E009832F5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC28D9E21AFAA6DF009832F5 /* FlickrPhotoLoader.m in Sources */,
 				AC28D9321AFA674E009832F5 /* PhotoGridController.m in Sources */,
 				AC28D92F1AFA674E009832F5 /* AppDelegate.m in Sources */,
 				AC28D9511AFA766A009832F5 /* PhotoGridCell.m in Sources */,
@@ -376,21 +525,25 @@
 		};
 		AC28D94A1AFA674F009832F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6717918DD2D0903E3CC143D9 /* Pods-Flickr Fetchr.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Flickr Fetchr/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		AC28D94B1AFA674F009832F5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B773DC2AF5B3D07A5B00A521 /* Pods-Flickr Fetchr.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Flickr Fetchr/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -447,6 +600,7 @@
 				AC28D94B1AFA674F009832F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC28D94C1AFA674F009832F5 /* Build configuration list for PBXNativeTarget "Flickr FetchrTests" */ = {
 			isa = XCConfigurationList;
@@ -455,6 +609,7 @@
 				AC28D94E1AFA674F009832F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

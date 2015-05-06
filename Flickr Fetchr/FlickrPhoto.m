@@ -9,5 +9,11 @@
 #import "FlickrPhoto.h"
 
 @implementation FlickrPhoto
-
+- (id) initWithJson: (NSDictionary*) json {
+    if (self = [super init]){
+        _title = json[@"title"];
+        _media = json[@"media"][@"m"];
+    }
+    return self;
+}
 @end

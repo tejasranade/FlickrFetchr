@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FlickrPhotoLoader.h"
 
-@interface PhotoGridController : UIViewController <UICollectionViewDelegate, UICollectionViewDelegateFlowLayout>
+@interface PhotoGridController : UIViewController <UICollectionViewDelegate, UICollectionViewDelegateFlowLayout, FlickrPhotoLoaderDelegate>
 
 @end
 

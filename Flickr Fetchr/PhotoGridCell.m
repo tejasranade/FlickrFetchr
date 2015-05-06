@@ -7,7 +7,21 @@
 //
 
 #import "PhotoGridCell.h"
+#import "FlickrPhoto.h"
 
 @implementation PhotoGridCell
 
+- (void) loadImage {
+    if(self.photo){
+        dispatch_async(dispatch_get_global_queue(0,0), ^{
+            NSData * data = [[NSData alloc] initWithContentsOfURL: [NSURL URLWithString: self.photo.media]];
+            if ( data == nil )
+                return;
+            dispatch_async(dispatch_get_main_queue(), ^{
+                self.photoView.image = [UIImage imageWithData:data];
+            });
+        });
+    }
+    //else load a default image
+}
 @end
