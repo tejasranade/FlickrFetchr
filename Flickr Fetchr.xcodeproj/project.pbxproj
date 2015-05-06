@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		AC28D92C1AFA674E009832F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC28D92B1AFA674E009832F5 /* main.m */; };
 		AC28D92F1AFA674E009832F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC28D92E1AFA674E009832F5 /* AppDelegate.m */; };
-		AC28D9321AFA674E009832F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC28D9311AFA674E009832F5 /* ViewController.m */; };
+		AC28D9321AFA674E009832F5 /* PhotoGridController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC28D9311AFA674E009832F5 /* PhotoGridController.m */; };
 		AC28D9351AFA674E009832F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC28D9331AFA674E009832F5 /* Main.storyboard */; };
 		AC28D9371AFA674E009832F5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC28D9361AFA674E009832F5 /* Images.xcassets */; };
 		AC28D93A1AFA674E009832F5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC28D9381AFA674E009832F5 /* LaunchScreen.xib */; };
 		AC28D9461AFA674F009832F5 /* Flickr_FetchrTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC28D9451AFA674F009832F5 /* Flickr_FetchrTests.m */; };
+		AC28D9511AFA766A009832F5 /* PhotoGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AC28D9501AFA766A009832F5 /* PhotoGridCell.m */; };
+		AC28D9591AFA8C56009832F5 /* FlickrPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = AC28D9581AFA8C56009832F5 /* FlickrPhoto.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +34,18 @@
 		AC28D92B1AFA674E009832F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AC28D92D1AFA674E009832F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AC28D92E1AFA674E009832F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AC28D9301AFA674E009832F5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AC28D9311AFA674E009832F5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AC28D9301AFA674E009832F5 /* PhotoGridController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoGridController.h; sourceTree = "<group>"; };
+		AC28D9311AFA674E009832F5 /* PhotoGridController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoGridController.m; sourceTree = "<group>"; };
 		AC28D9341AFA674E009832F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC28D9361AFA674E009832F5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AC28D9391AFA674E009832F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		AC28D93F1AFA674F009832F5 /* Flickr FetchrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flickr FetchrTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC28D9441AFA674F009832F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC28D9451AFA674F009832F5 /* Flickr_FetchrTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Flickr_FetchrTests.m; sourceTree = "<group>"; };
+		AC28D94F1AFA766A009832F5 /* PhotoGridCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoGridCell.h; sourceTree = "<group>"; };
+		AC28D9501AFA766A009832F5 /* PhotoGridCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoGridCell.m; sourceTree = "<group>"; };
+		AC28D9571AFA8C56009832F5 /* FlickrPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrPhoto.h; sourceTree = "<group>"; };
+		AC28D9581AFA8C56009832F5 /* FlickrPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrPhoto.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +69,7 @@
 		AC28D91D1AFA674E009832F5 = {
 			isa = PBXGroup;
 			children = (
-				AC28D9281AFA674E009832F5 /* Flickr Fetchr */,
+				AC28D9281AFA674E009832F5 /* src */,
 				AC28D9421AFA674F009832F5 /* Flickr FetchrTests */,
 				AC28D9271AFA674E009832F5 /* Products */,
 			);
@@ -78,18 +84,19 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AC28D9281AFA674E009832F5 /* Flickr Fetchr */ = {
+		AC28D9281AFA674E009832F5 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				AC28D9531AFA76BC009832F5 /* model */,
+				AC28D9521AFA7685009832F5 /* view */,
 				AC28D92D1AFA674E009832F5 /* AppDelegate.h */,
 				AC28D92E1AFA674E009832F5 /* AppDelegate.m */,
-				AC28D9301AFA674E009832F5 /* ViewController.h */,
-				AC28D9311AFA674E009832F5 /* ViewController.m */,
 				AC28D9331AFA674E009832F5 /* Main.storyboard */,
 				AC28D9361AFA674E009832F5 /* Images.xcassets */,
 				AC28D9381AFA674E009832F5 /* LaunchScreen.xib */,
 				AC28D9291AFA674E009832F5 /* Supporting Files */,
 			);
+			name = src;
 			path = "Flickr Fetchr";
 			sourceTree = "<group>";
 		};
@@ -117,6 +124,26 @@
 				AC28D9441AFA674F009832F5 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC28D9521AFA7685009832F5 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				AC28D9301AFA674E009832F5 /* PhotoGridController.h */,
+				AC28D9311AFA674E009832F5 /* PhotoGridController.m */,
+				AC28D94F1AFA766A009832F5 /* PhotoGridCell.h */,
+				AC28D9501AFA766A009832F5 /* PhotoGridCell.m */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		AC28D9531AFA76BC009832F5 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				AC28D9571AFA8C56009832F5 /* FlickrPhoto.h */,
+				AC28D9581AFA8C56009832F5 /* FlickrPhoto.m */,
+			);
+			name = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,8 +246,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC28D9321AFA674E009832F5 /* ViewController.m in Sources */,
+				AC28D9321AFA674E009832F5 /* PhotoGridController.m in Sources */,
 				AC28D92F1AFA674E009832F5 /* AppDelegate.m in Sources */,
+				AC28D9511AFA766A009832F5 /* PhotoGridCell.m in Sources */,
+				AC28D9591AFA8C56009832F5 /* FlickrPhoto.m in Sources */,
 				AC28D92C1AFA674E009832F5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
