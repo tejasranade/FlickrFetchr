@@ -13,6 +13,6 @@
 @interface PhotoGridCell : UICollectionViewCell
 @property (nonatomic, weak) IBOutlet UIImageView* photoView;
 @property (nonatomic, strong) FlickrPhoto* photo;
-
+@property (nonatomic, weak) IBOutlet UIActivityIndicatorView* loadingSpinner;
 - (void) loadImage;
 @end

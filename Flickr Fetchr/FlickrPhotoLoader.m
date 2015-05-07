@@ -17,7 +17,6 @@
 @implementation FlickrPhotoLoader
 
 static const NSString* baseUrl = @"https://api.flickr.com/services/feeds/photos_public.gne?format=json&nojsoncallback=?";
-static const NSString* secret = @"";
 
 - (void) load {
     NSString* urlString = [NSString stringWithFormat:@"%@&tags=%@", baseUrl, self.searchTerm];
@@ -50,9 +49,10 @@ static const NSString* secret = @"";
         }
         
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
-        NSLog(@"%@", error);
+        [self.delegate onFailure: error];
     }];
     
+    self.requestOperation = op;
     [self.requestOperation start];
 
 }

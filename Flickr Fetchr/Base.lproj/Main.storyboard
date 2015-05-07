@@ -37,6 +37,9 @@
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="X3K-Vk-UFb">
                                                     <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
                                                 </imageView>
+                                                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="ABP-cN-qvS">
+                                                    <rect key="frame" x="50" y="50" width="20" height="20"/>
+                                                </activityIndicatorView>
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
@@ -47,6 +50,7 @@
                                             <constraint firstAttribute="bottom" secondItem="X3K-Vk-UFb" secondAttribute="bottom" id="MO4-gt-p7L"/>
                                         </constraints>
                                         <connections>
+                                            <outlet property="loadingSpinner" destination="ABP-cN-qvS" id="b70-PP-J05"/>
                                             <outlet property="photoView" destination="X3K-Vk-UFb" id="0el-To-RJu"/>
                                         </connections>
                                     </collectionViewCell>

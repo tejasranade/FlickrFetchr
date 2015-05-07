@@ -73,7 +73,7 @@
 }
 
 - (void)collectionView:(UICollectionView *)collectionView didDeselectItemAtIndexPath:(NSIndexPath *)indexPath {
-    //Do nothing for now. Possibly go to a large image view later
+    //Do nothing for now. Possibly go to an image detail view later
 }
 
 #pragma CollectionView layout

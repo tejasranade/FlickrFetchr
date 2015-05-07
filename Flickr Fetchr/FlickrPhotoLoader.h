@@ -9,8 +9,8 @@
 #import <Foundation/Foundation.h>
 
 @protocol FlickrPhotoLoaderDelegate <NSObject>
-- (void) onSuccess: (NSArray*) photos;
-- (void) onFailure: (NSError*) error;
+- (void) onSuccess: (NSArray*) photos;      //photos fetched successfully
+- (void) onFailure: (NSError*) error;       //error occurred during retrieval
 @end
 
 @interface FlickrPhotoLoader : NSObject
