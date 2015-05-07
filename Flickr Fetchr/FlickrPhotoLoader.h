@@ -16,6 +16,7 @@
 @interface FlickrPhotoLoader : NSObject
 - (void) load;
 - (void) cancel;
+- (BOOL) isLoading;
 
 @property (nonatomic, strong) NSString* searchTerm;
 @property (nonatomic, weak) id<FlickrPhotoLoaderDelegate> delegate;

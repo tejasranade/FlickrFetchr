@@ -17,7 +17,6 @@
 @implementation FlickrPhotoLoader
 
 static const NSString* baseUrl = @"https://api.flickr.com/services/feeds/photos_public.gne?format=json&nojsoncallback=?";
-//static const NSString* baseUrl = @"https://api.flickr.com/services/feeds/photos_public.gne?";
 static const NSString* secret = @"";
 
 - (void) load {
@@ -27,7 +26,7 @@ static const NSString* secret = @"";
     AFHTTPRequestOperation* op = [[AFHTTPRequestOperation alloc] initWithRequest:request];
 
     [op setCompletionBlockWithSuccess:^(AFHTTPRequestOperation *operation, id responseObject) {
-        //NSXMLParser* xml = (NSXMLParser*) responseObject;
+
         NSError* error = nil;
         NSData* resultData = (NSData*) responseObject;
         
@@ -52,12 +51,14 @@ static const NSString* secret = @"";
         
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
         NSLog(@"%@", error);
-        
     }];
     
-    self.requestOperation = op;
     [self.requestOperation start];
 
+}
+
+- (BOOL) isLoading {
+    return [self.requestOperation isExecuting];
 }
 
 - (void) cancel {
